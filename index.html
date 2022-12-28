@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Taks</title>
+</head>
+<body>
+    <input type="datetime-local" id="time"><button id="dates" onclick="current()">Click here</button>
+    <h3>Current Date: <span id ="cu" class="cur"></span></h3>
+    <h3>UTC Date: <span class="utdate"></span></h3>
+    <h3>UTC Time: <span class="uttime"></span></h3>
+    <h3>Selected date: <span class="sel_date"></span></h3>
+    <h3>Difference between utc and current time - hour : <span class="dif_date"></span></h3>
+    <h3>Difference between utc and current time- year : <span class="dif_year"></span></h3>
+    <h3>Difference between Current date and Selected date (Day) : <span class="ANS1"></span></h3>
+    <h3>Difference between Current Month and Selected Month  : <span class="ANS2"></span></h3>
+    <h3>Difference between Current Hours and Selected Hours  : <span class="ANS3"></span></h3>
+    <h3>Difference between Current Seconds and Selected Seconds  : <span class="ANS4"></span></h3>
+
+    <h3>After 10 days <span class="ANS5"></span></h3>
+    <button onclick="add()">Add 10 Days</button>
+
+    <h3>Before 30 days <span class="ANS6"></span></h3>
+    <button onclick="before()">Add 10 Days</button>
+
+    <!-- <h3>Before 30 days <span class="ANS7"></span></h3>
+    <button onclick="logo()">Add 10 Days</button> -->
+
+
+    <div><img id="Logo" src="profile.png" alt="KnowledgeBase" width="75%" onclick="logo()" /></div>
+    <script src="script.js"></script> 
+
+    
+
+    
+</body>
+</html>
